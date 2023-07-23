@@ -1,1 +1,172 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px 0;
+}
+
+#hero {
+  background-image: url('hero-image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h2 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6f5644;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #654227;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#about {
+  background-color: #c9ae9e;
+}
+
+#about h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#services {
+  background-color: #f2e2d2;
+}
+
+.service {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  color: #777;
+  font-size: 16px;
+}
+
+#contact {
+  background-color: #c9ae9e;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #8b5f40;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #654227;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
 
